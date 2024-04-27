@@ -1,0 +1,21 @@
+.gca-gride {
+  display: grid;
+  grid-template-columns: 1400px;
+}
+
+.gcadropdownbox {
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 180px 180px 180px;
+}
+
+.gca-ddcontainer {
+  padding: 20px;
+}
+
+.gca-db-selectbox {
+  padding: 8px 40px;
+  color: rgb(215, 215, 215);
+  background-color: rgb(48, 48, 48);
+  border-radius: 5px;
+}

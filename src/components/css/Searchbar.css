@@ -1,0 +1,43 @@
+.sb-a {
+  font-size: 30px;
+  font-weight: 700;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  margin: 8px;
+  padding-right: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sb-input {
+  padding: 13px;
+  margin: 9px;
+  width: 70rem;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(84, 84, 84);
+  transition: 0.2s;
+}
+
+.sb-input:hover {
+  background-color: rgb(234, 234, 234);
+  border-width: 2px;
+}
+
+.sb-btn {
+  border: none;
+  padding: 12px;
+  border-radius: 15px;
+  width: 5rem;
+}
+
+.sb-btn:hover {
+  background-color: rgb(234, 52, 52);
+  color: black;
+}
+
+.sb-bar1 {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}

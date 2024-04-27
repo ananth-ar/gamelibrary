@@ -1,0 +1,57 @@
+.gca-container {
+  display: grid;
+  grid-template: repeat(5, 350px) / repeat(4, 350px);
+  justify-items: center;
+  align-items: center;
+}
+
+.gca-gride {
+  display: grid;
+  grid-template-columns: 1400px;
+}
+
+.gcadropdownbox {
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 180px 180px 180px;
+}
+
+.gca-ddcontainer {
+  padding: 20px;
+}
+
+.gca-db-selectbox {
+  padding: 8px 40px;
+  color: rgb(215, 215, 215);
+  background-color: rgb(48, 48, 48);
+  border-radius: 5px;
+}
+
+.gca-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 120px;
+}
+
+.gca-pagenum {
+  color: aliceblue;
+  padding: 12px;
+}
+
+.gca-pagebtn {
+  padding: 12px;
+  border-radius: 100%;
+  background-color: rgb(70, 70, 70);
+  border-width: 0;
+  color: rgb(235, 235, 235);
+  transition: 0.2s;
+}
+
+.gca-pagebtn:hover {
+  background-color: rgb(248, 20, 16);
+  color: rgb(10, 10, 10);
+  transform: scale(1.2);
+}

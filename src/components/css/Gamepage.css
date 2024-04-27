@@ -1,0 +1,101 @@
+.gp0 {
+  margin-bottom: 15rem;
+}
+
+.gp {
+  color: rgb(248, 248, 248);
+  width: 85%;
+}
+
+.gp-heading {
+  font-size: 4em;
+}
+
+.gp-wtb-gridcontainer {
+  display: grid;
+  grid-template: repeat(2, 50px) / repeat(4, 150px);
+  justify-items: center;
+  align-items: center;
+}
+
+.gp-wtb-h {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.gp-wtb-btn {
+  border: none;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  width: 140px;
+  height: 40px;
+  color: rgb(248, 248, 248);
+  border-radius: 4px;
+  transition: 0.3;
+}
+
+.gp-wtb-btn:hover {
+  background-color: rgb(243, 17, 17);
+  color: rgb(255, 255, 255);
+}
+
+.gp-media {
+  padding: 50px 0;
+}
+
+.gp-mediacontainer1 {
+  display: grid;
+  grid-template-columns: 500px 250px;
+  height: 400px;
+}
+
+.gp-media-video {
+  width: 500px;
+  height: 400px;
+}
+.gp-mediaimg {
+  width: 245px;
+  height: 195px;
+}
+
+.gp-mediacontainer12 {
+  display: grid;
+  grid-template-columns: 250px;
+  height: 400px;
+}
+
+.gp-mediacontainer2 {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  height: 200px;
+}
+
+.gp-flexcontainer {
+  display: flex;
+}
+
+.gp-flexbox {
+  width: 50%;
+  margin-left: 25px;
+}
+
+.gp-l-platform {
+  padding: 20px 0;
+}
+.gp-l-platform-h {
+  margin: 0;
+  padding-bottom: 8px;
+  color: rgb(158, 158, 158);
+}
+
+a {
+  color: rgb(241, 241, 241);
+  transition: 0.2s;
+}
+
+a:hover {
+  color: rgb(142, 142, 142);
+}
+
+.gp-sys {
+  padding: 60px 0;
+}
